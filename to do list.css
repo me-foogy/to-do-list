@@ -1,0 +1,82 @@
+body{
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: 100vh;
+    overflow-y: auto;
+    font-family: 'Fjalla One', Arial, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;                /* Chrome, Safari, Opera */
+}
+
+
+.taskInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.js-toDoInput{
+    width: 70%;
+    padding: 20px;
+    border-radius: 30px;
+    margin-right: 10px;
+    border-color: rgb(90,139,93);
+    background-color: none;
+}
+
+.addButton{
+    width: 10%;
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    background-color:  rgb(90,139,93);
+    color: white;
+    font-family: 'Fjalla One', Arial, sans-serif;
+    font: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* .js-taskDisplay{
+    margin-top: 30px;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    display: flex;
+    padding: 20px 70%;
+    justify-content: center;
+    border-radius: 20px;
+} */
+
+.glassBackGround {
+    color: white;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px) saturate(180%);
+    box-shadow: 0 4px 16px 0 black;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.18);
+    padding: 10px 20px;
+    margin: 10px 5vw 10px 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deleteButton{
+    margin-left: 20px;
+    padding: 20px;
+    border: none;
+    background-color: red;
+    font-family: 'Fjalla One', Arial, sans-serif;
+    border-radius: 30px;
+    font: bold;
+    color: white;
+    cursor: pointer;
+}

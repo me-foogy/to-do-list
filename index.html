@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        TO DO LIST
+    </title>
+    <link rel="stylesheet" href="to do list.css">
+    <!--font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="taskInput">
+    <input placeholder="Enter Task" class="js-toDoInput"  onkeydown="if(event.key==='Enter') enterData()">
+    <button onclick="enterData()" class="addButton">Add to List</button>
+    </div>
+    <div class="js-taskDisplay"></div>
+    <script src="to do list.js"></script>
+
+</body>
